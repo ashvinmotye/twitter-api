@@ -1,0 +1,35 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.tweet {
+  max-width: 100%;
+  background: #f7f7f7;
+  padding: 15px;
+}
+.tweet_acc {
+  display: flex;
+  align-items: center;
+}
+.tweet_acc-info--name,
+.tweet_acc-info--handle {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 10px;
+}
+.tweet_acc-info--handle {
+  color: #737373;
+}
+.tweet_acc-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.tweet_acc-image img {
+  display: block;
+}
+.tweet_image img {
+  width: 100%;
+}
